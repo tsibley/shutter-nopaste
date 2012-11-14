@@ -1,6 +1,7 @@
 # Installation
 
-    ln -sv Nopaste.pm /usr/share/shutter/resources/system/upload_plugins/upload/Nopaste.pm
+    curl https://raw.github.com/gist/4070895/Nopaste.pm \
+        sudo tee /usr/share/shutter/resources/system/upload_plugins/upload/Nopaste.pm > /dev/null
 
 # Configuration
 
