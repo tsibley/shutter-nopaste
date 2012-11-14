@@ -1,7 +1,7 @@
-=head1 INSTALLATION
+# Installation
 
     ln -sv Nopaste.pm /usr/share/shutter/resources/system/upload_plugins/upload/Nopaste.pm
 
-=head1 CONFIGURATION
+# Configuration
 
 You'll need to configure L<App::Nopaste> first to paste to a pastebin which accepts binary files.  I like to use my personal website + the SSH Nopaste plugin.
