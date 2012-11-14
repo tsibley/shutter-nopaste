@@ -4,4 +4,4 @@
 
 # Configuration
 
-You'll need to configure L<App::Nopaste> first to paste to a pastebin which accepts binary files.  I like to use my personal website + the SSH Nopaste plugin.
+You'll need to configure [App::Nopaste](https://metacpan.org/release/App-Nopaste) first to paste to a pastebin which accepts binary files.  I like to use my personal website + the SSH Nopaste plugin.
