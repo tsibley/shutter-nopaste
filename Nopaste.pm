@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-# Copyright (C) 2012 Thomas Sibley <tsibley@cpan.org>
+# Copyright © 2012-2014 Thomas Sibley <tsibley@cpan.org>
 
 package Nopaste;
 use strict;
