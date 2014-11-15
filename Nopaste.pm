@@ -1,4 +1,4 @@
-#!/usr/bin/env perl
+#!/usr/bin/perl
 # Copyright © 2012-2014 Thomas Sibley <tsibley@cpan.org>
 
 package Nopaste;
