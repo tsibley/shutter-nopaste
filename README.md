@@ -2,16 +2,13 @@
 
 # Installation
 
-    curl https://raw.githubusercontent.com/tsibley/shutter-nopaste/master/Nopaste.pm \
-        sudo tee /usr/share/shutter/resources/system/upload_plugins/upload/Nopaste.pm > /dev/null
+    sudo make install
 
-If Shutter isn't using your system perl (`/usr/bin/perl`), you need to
-adjust the first line of `Nopaste.pm` to match the output of:
-
-    head -n1 `which shutter`
+If Shutter's base directory isn't `/usr/share/shutter`, pass
+`SHUTTER_ROOT=/path/to/shutter` as an argument to `make`.
 
 App::Nopaste must already be installed to your system perl, or whichever
-perl Shutter uses.
+perl Shutter uses.  The install process will check for this.
 
 # Configuration
 
